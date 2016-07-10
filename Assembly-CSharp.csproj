@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{58A26037-7964-BDC8-4A3B-E474BDEA4C98}</ProjectGuid>
+	<ProjectGuid>{C6D0D43B-6CA7-2EB9-76F0-2A1CED632DD5}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,6 +62,7 @@
      <Compile Include="Assets\js\apple\appledonghua.cs" />
      <Compile Include="Assets\js\caomei\CaomeiAction.cs" />
      <Compile Include="Assets\js\caomei\Getscale.cs" />
+     <Compile Include="Assets\js\comment\CommentAction.cs" />
      <Compile Include="Assets\js\comment\Source.cs" />
      <Compile Include="Assets\js\comment\UIControl.cs" />
      <Compile Include="Assets\js\long\lon.cs" />
@@ -79,20 +80,14 @@
      <None Include="Assets\Particle Ribbon\readme_Simple_Particle_Ribbon.txt" />
      <None Include="Assets\EasyAR\Resources\Shaders\RealityPlane.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
  <Reference Include="EasyAR.Unity">
- <HintPath>F:/easyar/EasyARSDKUnitySamples/HelloAR/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
+ <HintPath>F:/myteamar/Teamar/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{0C654444-F90B-42E7-83B4-11E096F27E99}</ProjectGuid>
+	<ProjectGuid>{D251584E-72C9-693F-FAE0-28F45CB7A788}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-UnityScript</AssemblyName>
@@ -53,20 +53,14 @@
      <None Include="Assets\Particle Ribbon\readme_Simple_Particle_Ribbon.txt" />
      <None Include="Assets\EasyAR\Resources\Shaders\RealityPlane.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
  <Reference Include="EasyAR.Unity">
- <HintPath>F:/easyar/EasyARSDKUnitySamples/HelloAR/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
+ <HintPath>F:/myteamar/Teamar/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
