@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 7253524a013c2844ebca45391e19c9d5
+timeCreated: 1468140070
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: elefante:BS
+    100004: elefante:Cabezo
+    100006: elefante:Cola1
+    100008: elefante:Cola2
+    100010: elefante:Cuenno
+    100012: elefante:Cuenno1
+    100014: elefante:Cuerno_peque
+    100016: elefante:Cuerno_peque1
+    100018: elefante:Cuernos
+    100020: elefante:Cuernos_Grande
+    100022: elefante:Cuernos_Peque
+    100024: elefante:Cuerpo
+    100026: elefante:Culo
+    100028: elefante:Dientes_G
+    100030: elefante:GEOMETRIA
+    100032: elefante:group30
+    100034: elefante:group31
+    100036: elefante:group33
+    100038: elefante:group34
+    100040: elefante:group35
+    100042: elefante:group36
+    100044: elefante:group36 1
+    100046: elefante:group39
+    100048: elefante:group40
+    100050: elefante:group41
+    100052: elefante:group42
+    100054: elefante:group43
+    100056: elefante:group44
+    100058: elefante:group45
+    100060: elefante:group46
+    100062: elefante:group47
+    100064: elefante:group48
+    100066: elefante:group49
+    100068: elefante:group50
+    100070: elefante:group52
+    100072: elefante:group53
+    100074: elefante:group55
+    100076: elefante:group56
+    100078: elefante:group57
+    100080: elefante:group59
+    100082: elefante:group60
+    100084: elefante:group61
+    100086: elefante:group62
+    100088: elefante:joint1
+    100090: elefante:joint17
+    100092: elefante:joint18
+    100094: elefante:joint19
+    100096: elefante:joint2
+    100098: elefante:joint20
+    100100: elefante:joint21
+    100102: elefante:joint22
+    100104: elefante:joint23
+    100106: elefante:joint24
+    100108: elefante:joint25
+    100110: elefante:joint26
+    100112: elefante:joint27
+    100114: elefante:joint28
+    100116: elefante:joint29
+    100118: elefante:joint3
+    100120: elefante:joint30
+    100122: elefante:joint31
+    100124: elefante:joint32
+    100126: elefante:joint33
+    100128: elefante:joint34
+    100130: elefante:joint35
+    100132: elefante:joint4
+    100134: elefante:joint5
+    100136: elefante:joint6
+    100138: elefante:joint6 1
+    100140: elefante:joint7
+    100142: elefante:joint8
+    100144: elefante:joint9
+    100146: elefante:Lengua
+    100148: elefante:nurbsCircle2
+    100150: elefante:nurbsCircle8
+    100152: elefante:nurbsSphere1
+    100154: elefante:nurbsSphere1 1
+    100156: elefante:nurbsSphere2
+    100158: elefante:nurbsSphere2 1
+    100160: elefante:nurbsSphere2 2
+    100162: elefante:nurbsSphere2 3
+    100164: elefante:nurbsSphere3
+    100166: elefante:nurbsSphere3 1
+    100168: elefante:nurbsSphere3 2
+    100170: elefante:nurbsSphere3 3
+    100172: elefante:nurbsSphere4
+    100174: elefante:nurbsSphere4 1
+    100176: elefante:nurbsSphere4 2
+    100178: elefante:nurbsSphere4 3
+    100180: elefante:nurbsSphere5
+    100182: elefante:nurbsSphere6
+    100184: elefante:nurbsSphere7
+    100186: elefante:nurbsSphere8
+    100188: elefante:O_D_1
+    100190: elefante:O_D_2
+    100192: elefante:O_I_1
+    100194: elefante:O_I_2
+    100196: elefante:Offset
+    100198: elefante:Pata
+    100200: elefante:Pata2
+    100202: elefante:Pata3
+    100204: elefante:Pata4
+    100206: elefante:Pierna
+    100208: elefante:Pierna2
+    100210: elefante:Pierna3
+    100212: elefante:Pierna4
+    100214: elefante:PXY
+    100216: elefante:Root
+    100218: elefante:trompa1
+    100220: elefante:trompa2
+    100222: elefante:trompa3
+    100224: elefante:trompa4
+    100226: elefante:trompa5
+    100228: elefante:trompa6
+    100230: elefante:trompa7
+    400000: //RootNode
+    400002: elefante:BS
+    400004: elefante:Cabezo
+    400006: elefante:Cola1
+    400008: elefante:Cola2
+    400010: elefante:Cuenno
+    400012: elefante:Cuenno1
+    400014: elefante:Cuerno_peque
+    400016: elefante:Cuerno_peque1
+    400018: elefante:Cuernos
+    400020: elefante:Cuernos_Grande
+    400022: elefante:Cuernos_Peque
+    400024: elefante:Cuerpo
+    400026: elefante:Culo
+    400028: elefante:Dientes_G
+    400030: elefante:GEOMETRIA
+    400032: elefante:group30
+    400034: elefante:group31
+    400036: elefante:group33
+    400038: elefante:group34
+    400040: elefante:group35
+    400042: elefante:group36
+    400044: elefante:group36 1
+    400046: elefante:group39
+    400048: elefante:group40
+    400050: elefante:group41
+    400052: elefante:group42
+    400054: elefante:group43
+    400056: elefante:group44
+    400058: elefante:group45
+    400060: elefante:group46
+    400062: elefante:group47
+    400064: elefante:group48
+    400066: elefante:group49
+    400068: elefante:group50
+    400070: elefante:group52
+    400072: elefante:group53
+    400074: elefante:group55
+    400076: elefante:group56
+    400078: elefante:group57
+    400080: elefante:group59
+    400082: elefante:group60
+    400084: elefante:group61
+    400086: elefante:group62
+    400088: elefante:joint1
+    400090: elefante:joint17
+    400092: elefante:joint18
+    400094: elefante:joint19
+    400096: elefante:joint2
+    400098: elefante:joint20
+    400100: elefante:joint21
+    400102: elefante:joint22
+    400104: elefante:joint23
+    400106: elefante:joint24
+    400108: elefante:joint25
+    400110: elefante:joint26
+    400112: elefante:joint27
+    400114: elefante:joint28
+    400116: elefante:joint29
+    400118: elefante:joint3
+    400120: elefante:joint30
+    400122: elefante:joint31
+    400124: elefante:joint32
+    400126: elefante:joint33
+    400128: elefante:joint34
+    400130: elefante:joint35
+    400132: elefante:joint4
+    400134: elefante:joint5
+    400136: elefante:joint6
+    400138: elefante:joint6 1
+    400140: elefante:joint7
+    400142: elefante:joint8
+    400144: elefante:joint9
+    400146: elefante:Lengua
+    400148: elefante:nurbsCircle2
+    400150: elefante:nurbsCircle8
+    400152: elefante:nurbsSphere1
+    400154: elefante:nurbsSphere1 1
+    400156: elefante:nurbsSphere2
+    400158: elefante:nurbsSphere2 1
+    400160: elefante:nurbsSphere2 2
+    400162: elefante:nurbsSphere2 3
+    400164: elefante:nurbsSphere3
+    400166: elefante:nurbsSphere3 1
+    400168: elefante:nurbsSphere3 2
+    400170: elefante:nurbsSphere3 3
+    400172: elefante:nurbsSphere4
+    400174: elefante:nurbsSphere4 1
+    400176: elefante:nurbsSphere4 2
+    400178: elefante:nurbsSphere4 3
+    400180: elefante:nurbsSphere5
+    400182: elefante:nurbsSphere6
+    400184: elefante:nurbsSphere7
+    400186: elefante:nurbsSphere8
+    400188: elefante:O_D_1
+    400190: elefante:O_D_2
+    400192: elefante:O_I_1
+    400194: elefante:O_I_2
+    400196: elefante:Offset
+    400198: elefante:Pata
+    400200: elefante:Pata2
+    400202: elefante:Pata3
+    400204: elefante:Pata4
+    400206: elefante:Pierna
+    400208: elefante:Pierna2
+    400210: elefante:Pierna3
+    400212: elefante:Pierna4
+    400214: elefante:PXY
+    400216: elefante:Root
+    400218: elefante:trompa1
+    400220: elefante:trompa2
+    400222: elefante:trompa3
+    400224: elefante:trompa4
+    400226: elefante:trompa5
+    400228: elefante:trompa6
+    400230: elefante:trompa7
+    4300000: elefante:PXY
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: elefante:PXY
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
