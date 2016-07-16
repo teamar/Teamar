@@ -234,6 +234,8 @@
     <Compile Include="Assets\js\mogu\SelfRotate.cs" />
     <Compile Include="Assets\js\shayu\Shayu.cs" />
     <Compile Include="Assets\js\shizi\Shizi.cs" />
+    <Compile Include="Assets\js\shouji\ShoujiVibration.cs" />
+    <Compile Include="Assets\test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\EasyAR\Resources\Shaders\RealityPlane.shader" />
