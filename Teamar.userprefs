@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\js\loginSence\LoginMagicCard.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\js\banma\Banma.cs">
     <Files>
-      <File FileName="Assets\js\comment\CommentAction.cs" Line="1" Column="1" />
-      <File FileName="Assets\js\long\lon.cs" Line="1" Column="1" />
-      <File FileName="Assets\js\loginSence\LoginMagicCard.cs" Line="20" Column="53" />
+      <File FileName="Assets\js\apple\apple.cs" Line="21" Column="3" />
+      <File FileName="Assets\js\naozhong\naozhong.cs" Line="16" Column="22" />
+      <File FileName="Assets\js\banma\Banma.cs" Line="87" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
