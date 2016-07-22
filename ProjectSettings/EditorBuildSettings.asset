@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/HelloAR/Scenes/HelloAR.unity
-  - enabled: 0
-    path: Assets/login.unity
+  - enabled: 1
+    path: Assets/login-chen.unity
   - enabled: 1
     path: Assets/card-chen.unity
