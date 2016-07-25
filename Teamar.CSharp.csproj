@@ -214,6 +214,7 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
     <Compile Include="Assets\Particle Ribbon\Scripts\ReverseNormals.cs" />
+    <Compile Include="Assets\js\PreviewImage.cs" />
     <Compile Include="Assets\js\SoundsManager.cs" />
     <Compile Include="Assets\js\apple\apple.cs" />
     <Compile Include="Assets\js\apple\appledonghua.cs" />
