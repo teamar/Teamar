@@ -9,9 +9,13 @@ public class PreviewImage : MonoBehaviour {
     public Image _image;
     
     private Rect rect;
+    private Texture2D t2d;
+    private RenderTexture rt;
     // Use this for initialization
     void Start () {
         rect = new Rect(0, 0, Screen.width, Screen.height);
+        t2d = new Texture2D((int)rect.width, (int)rect.height, TextureFormat.RGB24, false);
+        rt = new RenderTexture((int)rect.width, (int)rect.height, 0);
     }
 	
 	// Update is called once per frame
@@ -26,18 +30,15 @@ public class PreviewImage : MonoBehaviour {
 
     IEnumerator Shot()
     {
-        yield return new WaitForEndOfFrame();
-        RenderTexture rt = new RenderTexture((int)rect.width, (int)rect.height, 0);
+        yield return new WaitForEndOfFrame();        
         _camera.targetTexture = rt;
         _camera.Render();
-        RenderTexture.active = rt;
-        Texture2D t2d = new Texture2D((int)rect.width, (int)rect.height, TextureFormat.RGB24, false);
+        RenderTexture.active = rt;        
         t2d.ReadPixels(rect, 0, 0);
         t2d.Apply();        
         _image.sprite = Sprite.Create(t2d, rect, new Vector2(0.5f, 0.5f));
         _camera.targetTexture = null;
         RenderTexture.active = null;
-        Destroy(rt);
         previewPanel.SetActive(true);
     }
 
@@ -49,5 +50,14 @@ public class PreviewImage : MonoBehaviour {
     public void Share()
     {
 
+    }
+
+    public void Save()
+    {
+        string path = Application.dataPath + "/" + System.DateTime.Now.Ticks + ".png";
+        if (t2d != null)
+        {
+            System.IO.File.WriteAllBytes(path, t2d.EncodeToPNG());
+        }
     }
 }
